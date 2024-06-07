@@ -43,7 +43,7 @@ Como Usar
 Exemplo de Uso
 
 # Insira o nome do seu servidor MISP
-server_name = "s1mspp01"
+server_name = "seu servidor MISP"
 path = f"/attributes/text/download/{attribute_type}/tags:{tag}/last:{period_days}D"
 
 print_header("Baixando dados do servidor MISP")
