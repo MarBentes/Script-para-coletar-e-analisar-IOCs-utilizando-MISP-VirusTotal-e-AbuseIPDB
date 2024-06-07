@@ -47,7 +47,7 @@ period_days = get_input("Digite o período em DIAS: ")
 min_reputation = int(get_input("Digite a porcentagem mínima de reputação no AbuseIPDB: "))
 
 # URL fixa do servidor MISP
-server_name = "s1mspp01"
+server_name = "servidor MISP"
 path = f"/attributes/text/download/{attribute_type}/tags:{tag}/last:{period_days}D"
 
 # Parte 3: Baixar dados do servidor MISP e salvar em {attribute_type}_MISP.txt
