@@ -39,16 +39,15 @@ Como Usar
 3. Coleta de IOCs do MISP: Insira o nome do seu servidor MISP na variável server_name no script.
 
    exemplo:
-   # Insira o nome do seu servidor MISP
 server_name = "nome do seu servidor MISP"
 path = f"/attributes/text/download/{attribute_type}/tags:{tag}/last:{period_days}D"
 
 
-Contribuição
+## Contribuição
 Se você tiver sugestões ou encontrar problemas, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-Licença
+## Licença
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
 
-Contato
+## Contato
 Para mais informações, entre em contato comigo pelo LinkedIn. www.linkedin.com/in/marcelo-bentes-79381963
