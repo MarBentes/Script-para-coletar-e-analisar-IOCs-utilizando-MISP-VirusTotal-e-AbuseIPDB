@@ -38,7 +38,12 @@ Como Usar
 
 4. Coleta de IOCs do MISP: Insira o nome do seu servidor MISP na variável server_name no script.
 
-5. Resultados: O script salvará os IOCs maliciosos identificados em arquivos específicos para análise posterior.
+   exemplo:
+   # Insira o nome do seu servidor MISP
+server_name = "nome do seu servidor MISP"
+path = f"/attributes/text/download/{attribute_type}/tags:{tag}/last:{period_days}D"
+
+6. Resultados: O script salvará os IOCs maliciosos identificados em arquivos específicos para análise posterior.
 
 Exemplo de Uso
 
