@@ -21,28 +21,29 @@ O script executa as seguintes etapas:
 ## Instalação
 
 1. Clone o repositório:
-
+   ```bash
    git clone https://github.com/MarBentes/Script-para-coletar-e-analisar-IOCs-utilizando-MISP-VirusTotal-e-AbuseIPDB.git
-Navegue até o diretório do projeto:
+   
+2. Navegue até o diretório do projeto:
 
-Copiar código
-cd Script-para-coletar-e-analisar-IOCs-utilizando-MISP-VirusTotal-e-AbuseIPDB
+   cd Script-para-coletar-e-analisar-IOCs-utilizando-MISP-VirusTotal-e-AbuseIPDB
+
 Como Usar
-Configuração: O script solicitará as chaves de autenticação para o MISP, VirusTotal e AbuseIPDB, além do tipo de atributo, tag, período em dias e a porcentagem mínima de reputação no AbuseIPDB.
 
-Execução: Execute o script:
+1. Configuração: O script solicitará as chaves de autenticação para o MISP, VirusTotal e AbuseIPDB, além do tipo de atributo, tag, período em dias e a porcentagem mínima de reputação no AbuseIPDB.
 
-Copiar código
-python misp_ioc.py
-Coleta de IOCs do MISP: Insira o nome do seu servidor MISP na variável server_name no script.
+2. Execução: Execute o script:
 
-Resultados: O script salvará os IOCs maliciosos identificados em arquivos específicos para análise posterior.
+   python misp_ioc.py
+
+4. Coleta de IOCs do MISP: Insira o nome do seu servidor MISP na variável server_name no script.
+
+5. Resultados: O script salvará os IOCs maliciosos identificados em arquivos específicos para análise posterior.
 
 Exemplo de Uso
-python
-Copiar código
+
 # Insira o nome do seu servidor MISP
-server_name = "seu servidor MISP"
+server_name = "s1mspp01"
 path = f"/attributes/text/download/{attribute_type}/tags:{tag}/last:{period_days}D"
 
 print_header("Baixando dados do servidor MISP")
