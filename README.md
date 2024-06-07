@@ -15,7 +15,7 @@ O script executa as seguintes etapas:
 ## Tecnologias Usadas
 
 - **Linguagem**: Python
-- **Bibliotecas**: `os`, `http.client`, `ssl`, `json`, `time`, `base64`
+- **Bibliotecas**: os, http.client, ssl, json, time, base64
 - **Plataformas**: MISP, VirusTotal, AbuseIPDB
 
 ## Instalação
