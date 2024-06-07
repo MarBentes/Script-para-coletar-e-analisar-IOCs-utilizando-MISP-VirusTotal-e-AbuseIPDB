@@ -83,4 +83,4 @@ Licença
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
 
 Contato
-Para mais informações, entre em contato comigo pelo LinkedIn.
+Para mais informações, entre em contato comigo pelo LinkedIn. www.linkedin.com/in/marcelo-bentes-79381963
